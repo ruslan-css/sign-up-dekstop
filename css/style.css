@@ -1,0 +1,167 @@
+
+body {
+  background: url('../Image/br.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+a{
+  text-decoration: none;
+
+}
+/*
+#logo {
+    position:relative;
+    top:50px;
+}
+h1 {
+    position: absolute;
+    bottom:100px;
+    right:50px;
+
+    color: white;
+    font-size: 18px;
+}
+*/
+header{
+
+max-width: 1139px;
+
+margin:38px auto 0 auto;
+}
+
+#logo  {
+display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+#top-menu {
+  float: right;
+}
+/*
+.iconinstagram::before{
+  content: url('../Image/iconinstagram.svg');*/
+
+#top-menu a {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+margin-left: 22px;
+}
+.dowload-icon{
+  margin-right: 6px;
+}
+#top-menu img, #top-menu svg {
+  vertical-align:middle;
+}
+/*
+.red path{
+  fill:red;
+}*/
+.sign-header {
+    position:relative;
+    top: -39px;
+    left: 20px;
+    width: 324px;
+    height: 150px;
+    background: linear-gradient(90deg, #AB47BC 0%, #7B1FA2 100%);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.12), 0px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+
+}
+/*
+    Form elements styles
+*/
+#sign-up {
+    background-color:white;
+    width: 365px;
+    height: 509px;
+    margin: 160px auto 0;
+}
+.sign-header h1{
+
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+padding-top: 31px;
+text-align: center;
+
+
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.Classical{
+  text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+color: rgba(0, 0, 0, 0.87);
+text-align: center;
+margin-top: -7px;
+margin-bottom: 33px;
+}
+.underline {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.sub {
+    background: transparent;
+    border: none;
+    color: #9C27B0;
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+.sign-icon{
+  margin-top: 36px;
+  text-align: center;
+}
+.sign-icon a{
+  margin-left: 18px;
+  margin-right: 18px;
+}
+#sign-up form label{
+  margin-left: 26px;
+  width: 28px;
+}
+#sign-up form input{
+  width: 269px;
+  margin-left:11px;
+  margin-bottom: 46px;
+  padding: 0;
+}
+footer{
+  width: 1136px;
+  margin: 72px auto 0;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+#fot-menu a{
+  font-family: Roboto;
+
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+margin-right: 34px;
+color: #FFFFFF;
+}
+footer p{
+
+
+font-weight: normal;
+font-size: 10px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
