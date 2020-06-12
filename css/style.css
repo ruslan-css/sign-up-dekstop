@@ -24,10 +24,43 @@ h1 {
 }
 */
 header{
-
 max-width: 1139px;
-
 margin:38px auto 0 auto;
+display: block;
+}
+@media screen and (max-width: 768px){
+  .middle{
+    width:500px;
+    background-color: #C4C4C4;
+  /*  background-color: green;*/
+  }
+  header{
+  width:768px;
+  height: 30px;
+  background-color: #C4C4C4;
+  margin: auto;
+  font-weight: bold;
+}
+}
+@media only screen and (max-width : 480px) {
+.middle{
+    max-width: none; width: : 100%;
+  }
+  header{
+    mwidth:425px;
+  height: 70px;
+  background-color: #C4C4C4;
+  margin: auto;
+  font-weight: bold;
+  }
+  #logo{
+    height: 19px;
+font-family: Roboto;
+padding: 24px;
+  }
+#top-menu{
+  display: none;
+}
 }
 
 #logo  {
@@ -58,6 +91,7 @@ margin-left: 22px;
 #top-menu img, #top-menu svg {
   vertical-align:middle;
 }
+
 /*
 .red path{
   fill:red;
