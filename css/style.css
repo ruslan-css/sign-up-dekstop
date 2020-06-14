@@ -36,10 +36,14 @@ display: block;
   }
   header{
   width:768px;
-  height: 30px;
+  height: 70px;
   background-color: #C4C4C4;
   margin: auto;
   font-weight: bold;
+}
+#logo,  #top-menu  {
+  margin: 24px 24px 24px 24px;
+
 }
 }
 @media only screen and (max-width : 480px) {
@@ -47,16 +51,14 @@ display: block;
     max-width: none; width: : 100%;
   }
   header{
-    mwidth:425px;
+width: 425px;
   height: 70px;
   background-color: #C4C4C4;
   margin: auto;
   font-weight: bold;
   }
-  #logo{
-    height: 19px;
-font-family: Roboto;
-padding: 24px;
+  #logo {
+margin: 24px auto;
   }
 #top-menu{
   display: none;
