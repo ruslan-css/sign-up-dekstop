@@ -31,29 +31,43 @@ display: block;
 @media screen and (max-width: 768px){
   .middle{
     width:500px;
-    background-color: #C4C4C4;
+
   /*  background-color: green;*/
   }
   header{
   width:768px;
   height: 70px;
-  background-color: #C4C4C4;
+  background: rgba(0, 0, 0, 0.4);
   margin: auto;
   font-weight: bold;
 }
 #logo,  #top-menu  {
   margin: 24px 24px 24px 24px;
+}
+footer{
+  width: 471px;
+  height: 64px;
 
+padding-left: 50px;
+}
+
+footer p{
+font-size: 18px;
+line-height: 14px;
+margin-right:550px;
+
+}
+.bar{
+  margin-left: 100px;
 }
 }
 @media only screen and (max-width : 480px) {
-.middle{
-    max-width: none; width: : 100%;
-  }
+
   header{
-width: 425px;
+width: 480px;
   height: 70px;
-  background-color: #C4C4C4;
+  /*background-color: #C4C4C4;*/
+  background: rgba(0, 0, 0, 0.4)
   margin: auto;
   font-weight: bold;
   }
@@ -63,15 +77,46 @@ margin: 24px auto;
 #top-menu{
   display: none;
 }
+footer{
+  width: 324px;
+height: 62px;
+  display: block;
+  justify-content: space-between;
+
+
+}
+#fot-menu a{
+  font-family: Roboto;
+
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+margin-right: 34px;
+color: #FFFFFF;
+
 }
 
-#logo  {
+footer p{
+
+font-weight: normal;
+font-size: 10px;
+line-height: 14px;
+color: #FFFFFF;
+padding-left:50px;
+}
+.bar{
+  margin-left: 100px;
+}
+}
+
+#logo {
 display: inline-block;
     color: white;
     font-size: 18px;
 }
 #top-menu {
   float: right;
+
 }
 /*
 .iconinstagram::before{
@@ -183,7 +228,13 @@ footer{
 
 
 }
+#fot-menu{
+  width: 1136px;
+  height: 17px;
+
+}
 #fot-menu a{
+
   font-family: Roboto;
 
 font-weight: 500;
@@ -191,13 +242,13 @@ font-size: 12px;
 line-height: 14px;
 margin-right: 34px;
 color: #FFFFFF;
+left: 160px;
 }
 footer p{
-
-
+float: right;
 font-weight: normal;
 font-size: 10px;
 line-height: 14px;
-
+padding-right: 144px;
 color: #FFFFFF;
 }
